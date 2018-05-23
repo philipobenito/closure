@@ -51,7 +51,7 @@ in order for the closure to work after deserialization
 ```json
 {
     "require": {
-        "{{page.lib}}": "^{{page.version}}"
+        "{{page.lib.name}}": "^{{page.lib.version}}"
     }
 }
 ```
@@ -60,7 +60,7 @@ If you are unable to use [Composer] you can download the [.tar.gz] or the [.zip]
 archive file, extract the content of the archive and include de `autoload.php` file into your project. 
 
 ```php
-require_once 'path/to/{{page.lib}}-{{page.version}}/autoload.php';
+require_once 'path/to/{{page.lib.name}}-{{page.lib.version}}/autoload.php';
 ```
 
 ### Migrating from 2.x
@@ -95,13 +95,13 @@ $second = function() {return "2nd";};
 
 [mit_license]: http://opensource.org/licenses/MIT "Project license" 
 {:rel="nofollow" target="_blank"}
-[Packagist]: https://packagist.org/packages/{{page.lib}} "Packagist" 
+[Packagist]: https://packagist.org/packages/{{page.lib.name}} "Packagist" 
 {:rel="nofollow" target="_blank"}
 [Composer]: http://getcomposer.org "Composer" 
 {:rel="nofollow" target="_blank"}
-[.tar.gz]: https://github.com/{{page.lib}}/archive/{{page.version}}.tar.gz "{{page.version}}" 
+[.tar.gz]: https://github.com/{{page.lib.name}}/archive/{{page.lib.version}}.tar.gz "{{page.lib.version}}" 
 {:data-toggle="tooltip"}
-[.zip]: https://github.com/{{page.lib}}/archive/{{page.version}}.zip "{{page.version}}" 
+[.zip]: https://github.com/{{page.lib.name}}/archive/{{page.lib.version}}.zip "{{page.lib.version}}" 
 {:data-toggle="tooltip"}
 [SuperClosure]: https://github.com/jeremeamia/super_closure "SuperClosure" 
 {:rel="nofollow" target="_blank"}
