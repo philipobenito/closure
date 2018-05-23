@@ -1,0 +1,39 @@
+{
+    "title": "Opis Closure",
+    "name": "Closure",
+    "github": "https://github.com/opis/closure",
+    "version": "3.0.12",
+    "url": "/closure",
+    "chapters": true,
+    "copyright": {
+        "owner": "The Opis Project",
+        "start": "2017",
+        "end": "2018"
+    },
+    "title_suffix": " | Opis Closure",
+    "ga": false,
+    "logo": "/assets/v2/logo.svg",
+    "favicon": "/assets/v2/favicon.png",
+    "classes": {
+        "body": "d-flex flex-column",
+        "main": "mb-auto pt-3"
+    },
+    "styles": [
+        "/assets/v2/theme.css",
+        "/assets/v2/prism.css",
+        "https://use.fontawesome.com/releases/v5.0.4/css/all.css",
+        "/assets/v2/style.css"
+    ],
+    "scripts": [
+        "https://code.jquery.com/jquery-3.2.1.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js",
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+        "/assets/v2/prism.js",
+        "/assets/v2/script.js"
+    ],
+    "current_version": 0,
+    "versions": [
+        {"title": "Version 3.x", "url": "/database/3.x"},
+        {"title": "Version 2.x", "url": "/database/2.x"}
+    ]
+}
