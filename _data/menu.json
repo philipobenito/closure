@@ -1,5 +1,77 @@
 {
-    "2.x": [],
-    "3.x": []
+    "2.x": [
+        {
+            "title": "Opis Closure",
+            "pages": [
+                {
+                    "title": "About",
+                    "url": "/2.x/",
+                    "description": "About this library"
+                },
+                {
+                    "title": "Serialize closures",
+                    "url": "/2.x/serialize.html",
+                    "description": "Learn hoe to serialize closures"
+                },
+                {
+                    "title": "Features",
+                    "url": "/2.x/features.html",
+                    "description": "A list of library's features"
+                },
+                {
+                    "title": "Serialization context",
+                    "url": "/2.x/context.html",
+                    "description": "Learn about serialization context"
+                },
+                {
+                    "title": "Signed closures",
+                    "url": "/2.x/security.html",
+                    "description": "Learn about security features"
+                },
+                {
+                    "title": "Debugging closures",
+                    "url": "/2.x/debug.html",
+                    "description": "Learn how to debug serialized closures"
+                }
+            ]
+        }
+    ],
+    "3.x": [
+        {
+            "title": "Opis Closure",
+            "pages": [
+                {
+                    "title": "About",
+                    "url": "/3.x/",
+                    "description": "About this library"
+                },
+                {
+                    "title": "Serialize closures",
+                    "url": "/3.x/serialize.html",
+                    "description": "Learn hoe to serialize closures"
+                },
+                {
+                    "title": "Features",
+                    "url": "/3.x/features.html",
+                    "description": "A list of library's features"
+                },
+                {
+                    "title": "Serialization context",
+                    "url": "/3.x/context.html",
+                    "description": "Learn about serialization context"
+                },
+                {
+                    "title": "Signed closures",
+                    "url": "/3.x/security.html",
+                    "description": "Learn about security features"
+                },
+                {
+                    "title": "Debugging closures",
+                    "url": "/3.x/debug.html",
+                    "description": "Learn how to debug serialized closures"
+                }
+            ]
+        }
+    ]
 }
 
