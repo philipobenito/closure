@@ -56,7 +56,7 @@ If the signature is not valid an `Opis\Closure\SecurityException` is thrown.
 **Important!**{:.important}
  You must make sure that the same security provider,
  with the same settings, is used both for serialization and unserialization. 
-{:.well .text-primary}
+{:.alert.alert-warning}
 
 If you are unhappy with the default security provider, you can use your own by creating a class that implements
 the `Opis\Closure\ISecurityProvider` interface and passing an instance of that class to `addSecurityProvider` method.
