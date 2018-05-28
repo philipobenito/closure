@@ -28,7 +28,7 @@ $closure();
 
 Starting with version 2.0.0, **Opis Closure** allows you to track the residing
 source of a serialized closure by using the `#trackme` directive inside the closure. 
-The `#trackme` directive provides the following informations: 
+The `#trackme` directive provides the following information: 
 
 - `Date` - the date when the closure was serialized, represented in the W3C format
 - `Timestamp` - an integer representation of the Date
