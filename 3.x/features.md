@@ -6,10 +6,11 @@ description: A list of library's main features
 ---
 # Features
 
-1. [Resolve class names](#resolve-class-names)
-2. [Resolve function and constant names](#resolve-functions-constants)
-2. [PHP 7.x support](#php-7-support)
-3. [Resolve closure's scope and $this object](#resolve-scope-this)
+* [Resolve class names](#resolve-class-names)
+* [Resolve function and constant names](#resolve-functions-constants)
+* [PHP 7.x support](#php-7-support)
+* [Resolve closure's scope and $this object](#resolve-scope-this)
+{:.list-unstyled.menu-links}
 
 ## Resolve class names
 

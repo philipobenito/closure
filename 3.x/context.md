@@ -6,10 +6,11 @@ description: Learn about serialization context
 ---
 # Serialization context
 
-1. [Introduction](#introduction)
-2. [The *enterContext* method](#the-entercontext-method)
-3. [The *from* method](#the-from-method)
-4. [The *exitContext* method](#the-exitcontext-method)
+* [Introduction](#introduction)
+* [The *enterContext* method](#the-entercontext-method)
+* [The *from* method](#the-from-method)
+* [The *exitContext* method](#the-exitcontext-method)
+{:.list-unstyled.menu-links}
 
 ## Introduction
 

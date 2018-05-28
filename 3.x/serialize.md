@@ -1,14 +1,15 @@
 ---
 layout: project
 version: 3.x
-title: Serialize closures
+title: Quick start
 description: Learn how to wrap a closure and make it serializable
 ---
-# Serialize closures
+# Quick start
 
-1. [Serialize closures](#serialize-closures)
-2. [Unserialize closures](#unserialize-closures)
-3. [Serialize/unserialize arbitrary objects](#serialize-unserialize-arbitrary-objects)
+* [Serialize closures](#serialize-closures)
+* [Unserialize closures](#unserialize-closures)
+* [Serialize/unserialize arbitrary objects](#serialize-unserialize-arbitrary-objects)
+{:.list-unstyled.menu-links}
 
 ## Serialize closures
 

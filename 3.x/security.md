@@ -6,8 +6,9 @@ description: Learn how to cryptographically sign your closures
 ---
 # Signed closures
 
-1. [Signing closures](#signing-closures)
-2. [Custom security providers](#custom-security-providers)
+* [Signing closures](#signing-closures)
+* [Custom security providers](#custom-security-providers)
+{:.list-unstyled.menu-links}
 
 ## Signing closures
 
