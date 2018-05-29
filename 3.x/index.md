@@ -5,7 +5,7 @@ title: About
 description: A mature and stable PHP library that can be used to serialize closures
 lib: 
     name: opis/closure
-    version: 3.0.0
+    version: 3.0
 ---
 # Serializable closures
 
@@ -46,7 +46,14 @@ in order for the closure to work after deserialization
  
 ## Installation
 
-**Opis Closure** is available on [Packagist] and can be installed using [Composer]. 
+**Opis Closure** is available on [Packagist] and it can be installed from a 
+command line interface by using [Composer]. 
+
+```bash
+composer require {{page.lib.name}}
+```
+
+Or you could directly reference it into your `composer.json` file as a dependency
 
 ```json
 {
@@ -54,13 +61,6 @@ in order for the closure to work after deserialization
         "{{page.lib.name}}": "^{{page.lib.version}}"
     }
 }
-```
-
-If you are unable to use [Composer] you can download the [.tar.gz] or the [.zip]
-archive file, extract the content of the archive and include de `autoload.php` file into your project. 
-
-```php
-require_once 'path/to/{{page.lib.name}}-{{page.lib.version}}/autoload.php';
 ```
 
 ### Migrating from 2.x
@@ -79,19 +79,6 @@ of updating your `composer.json` file.
 **Opis Closure** is shipped with an analyzer(`Opis\Closure\Analyzer`) which 
 aims to provide *Opis Closure*'s parsing precision and speed to [SuperClosure]. 
 
-### Note
-
-Due to PHP limitations, the **Opis Closure** library cannot detect the 
-correct closure code if there is more then one closure on a single line. 
-
-```php
-// This will NOT work!
-$first = function() {return "1st";}; $second = function() {return "2nd";};
-
-// This will work!
-$first = function() {return "1st";};
-$second = function() {return "2nd";};
-```
 
 [mit_license]: http://opensource.org/licenses/MIT "Project license" 
 {:rel="nofollow" target="_blank"}
@@ -99,9 +86,5 @@ $second = function() {return "2nd";};
 {:rel="nofollow" target="_blank"}
 [Composer]: http://getcomposer.org "Composer" 
 {:rel="nofollow" target="_blank"}
-[.tar.gz]: https://github.com/{{page.lib.name}}/archive/{{page.lib.version}}.tar.gz "{{page.lib.version}}" 
-{:data-toggle="tooltip"}
-[.zip]: https://github.com/{{page.lib.name}}/archive/{{page.lib.version}}.zip "{{page.lib.version}}" 
-{:data-toggle="tooltip"}
 [SuperClosure]: https://github.com/jeremeamia/super_closure "SuperClosure" 
 {:rel="nofollow" target="_blank"}
