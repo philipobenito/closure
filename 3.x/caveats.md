@@ -9,7 +9,6 @@ description: A list of known limitations
 * [Native classes](#native-classes)
 * [Multiple closures per line](#multiple-closures-per-line)
 * [Multiple namespaces per file](#multiple-namespaces-per-file)
-{:.list-unstyled.menu-links}
 
 Even though **Opis Closure** provides a ton of great features, there are some known limitations about which we consider
 you must be warned of.

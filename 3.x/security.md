@@ -8,7 +8,6 @@ description: Learn how to cryptographically sign your closures
 
 * [Signing closures](#signing-closures)
 * [Custom security providers](#custom-security-providers)
-{:.list-unstyled.menu-links}
 
 ## Signing closures
 

@@ -9,7 +9,6 @@ description: Learn how to wrap a closure and make it serializable
 * [Serialize closures](#serialize-closures)
 * [Unserialize closures](#unserialize-closures)
 * [Serialize/unserialize arbitrary objects](#serialize-unserialize-arbitrary-objects)
-{:.list-unstyled.menu-links}
 
 ## Serialize closures
 

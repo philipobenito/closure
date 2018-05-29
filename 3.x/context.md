@@ -10,7 +10,6 @@ description: Learn about serialization context
 * [The *enterContext* method](#the-entercontext-method)
 * [The *from* method](#the-from-method)
 * [The *exitContext* method](#the-exitcontext-method)
-{:.list-unstyled.menu-links}
 
 ## Introduction
 
