@@ -4,14 +4,6 @@ version: 3.x
 title: Serialization context
 description: Learn about serialization context
 ---
-# Serialization context
-
-* [Introduction](#introduction)
-* [The *enterContext* method](#the-entercontext-method)
-* [The *from* method](#the-from-method)
-* [The *exitContext* method](#the-exitcontext-method)
-
-## Introduction
 
 Sometimes, especially when we are working with serializable classes, it is desirable 
 that an instance of a closure to be wrapped only by a single `Opis\Closure\SerializableClosure`

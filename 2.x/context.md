@@ -5,14 +5,6 @@ title: Serialization context
 description: Learn about serialization context
 canonical: /closure/3.x/context.html
 ---
-# Serialization context
-
-1. [Introduction](#introduction)
-2. [The *enterContext* method](#the-entercontext-method)
-3. [The *from* method](#the-from-method)
-4. [The *exitContext* method](#the-exitcontext-method)
-
-## Introduction
 
 Sometimes, especially when we are working with serializable classes, it is desirable 
 that an instance of a closure to be wrapped only by a single `Opis\Closure\SerializableClosure`

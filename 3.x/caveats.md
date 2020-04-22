@@ -4,11 +4,6 @@ version: 3.x
 title: Caveats
 description: A list of known limitations
 ---
-# Caveats
-
-* [Native classes](#native-classes)
-* [Multiple closures per line](#multiple-closures-per-line)
-* [Multiple namespaces per file](#multiple-namespaces-per-file)
 
 Even though **Opis Closure** provides a ton of great features, there are some known limitations about which we consider
 you must be warned of.

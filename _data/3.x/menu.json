@@ -1,0 +1,84 @@
+[
+    {
+        "chapter": null,
+        "pages": [
+            {
+                "title": "About",
+                "page_title": "Opis Closure",
+                "url": "/3.x/",
+                "description": "Installation, licensing and requirements",
+                "items": {
+                    "#license": "License",
+                    "#requirements": "Requirements",
+                    "#installation": "Installation",
+                    "#migrating-from-2x": "Migrating from 2.x"
+                }
+            },
+            {
+                "title": "Quick start",
+                "url": "/3.x/serialize.html",
+                "description": "Learn how to serialize closures",
+                "items": {
+                    "#serialize-closures": "Serialize closures",
+                    "#unserialize-closures": "Unserialize closures",
+                    "#serialize-unserialize-arbitrary-objects": "Serialize/unserialize arbitrary objects"
+                }
+            }
+        ]
+    },
+    {
+        "chapter": "In-depth",
+        "pages": [
+            {
+                "title": "Features",
+                "url": "/3.x/features.html",
+                "description": "The library's main features",
+                "items": {
+                    "#resolve-class-names": "Resolve class names",
+                    "#resolve-functions-constants": "Resolve function and constant names",
+                    "#php-7-support": "PHP 7.x support",
+                    "#resolve-scope-this": "Resolve closure’s scope and $this object"
+                }
+            },
+            {
+                "title": "Serialization context",
+                "url": "/3.x/context.html",
+                "description": "Learn about the serialization context",
+                "items": {
+                    "#the-entercontext-method": "The `enterContext` method",
+                    "#the-from-method": "The `from` method ",
+                    "#the-exitcontext-method": "The `exitContext` method "
+                }
+            },
+            {
+                "title": "Signed closures",
+                "url": "/3.x/security.html",
+                "description": "Learn how to cryptographically sign your closures",
+                "items": {
+                    "#signing-closures": "Signing closures",
+                    "#custom-security-providers": "Custom security providers"
+                }
+            }
+        ]
+    },
+    {
+        "chapter": "Good to know",
+        "pages": [
+            {
+                "title": "Caveats",
+                "url": "/3.x/caveats.html",
+                "description": "A list of known limitations",
+                "items": {
+                    "#native-classes": "Native classes",
+                    "#multiple-closures-per-line": "Multiple closures per line",
+                    "#multiple-namespaces-per-file": "Multiple namespaces per file"
+                }
+            },
+            {
+                "title": "Debugging closures",
+                "url": "/3.x/debug.html",
+                "description": "Learn how to debug serialized closures"
+            }
+        ]
+    }
+]

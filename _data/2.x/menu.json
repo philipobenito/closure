@@ -1,0 +1,63 @@
+[
+    {
+        "chapter": null,
+        "pages": [
+            {
+                "title": "About",
+                "page_title": "Opis Closure",
+                "url": "/2.x/",
+                "description": "Installation, licensing and requirements",
+                "items": {
+                    "#license": "License",
+                    "#requirements": "Requirements",
+                    "#installation": "Installation"
+                }
+            },
+            {
+                "title": "Serialize closures",
+                "url": "/2.x/serialize.html",
+                "description": "Learn how to serialize closures",
+                "items": {
+                    "#serialize-closures": "Serialize closures",
+                    "#unserialize-closures": "Unserialize closures",
+                    "#serialize-unserialize-arbitrary-objects": "Serialize/unserialize arbitrary objects"
+                }
+            },
+            {
+                "title": "Features",
+                "url": "/2.x/features.html",
+                "description": "The library's main features",
+                "items": {
+                    "#resolve-class-names": "Resolve class names",
+                    "#resolve-functions-constants": "Resolve function and constant names",
+                    "#php-7-support": "PHP 7.x support",
+                    "#resolve-scope-this": "Resolve closure’s scope and $this object"
+                }
+            },
+            {
+                "title": "Serialization context",
+                "url": "/2.x/context.html",
+                "description": "Learn about the serialization context",
+                "items": {
+                    "#the-entercontext-method": "The `enterContext` method",
+                    "#the-from-method": "The `from` method ",
+                    "#the-exitcontext-method": "The `exitContext` method "
+                }
+            },
+            {
+                "title": "Signed closures",
+                "url": "/2.x/security.html",
+                "description": "Learn how to cryptographically sign your closures",
+                "items": {
+                    "#signing-closures": "Signing closures",
+                    "#custom-security-providers": "Custom security providers"
+                }
+            },
+            {
+                "title": "Debugging closures",
+                "url": "/2.x/debug.html",
+                "description": "Learn how to debug serialized closures"
+            }
+        ]
+    }
+]

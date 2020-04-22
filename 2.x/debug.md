@@ -5,7 +5,6 @@ title: Debugging closures
 description: Learn how to debug serialized closures
 canonical: /closure/3.x/debug.html
 ---
-# Debugging closures
 
 **Opis Closure** is debugging friendly and can be used in conjunction with 
 error handlers like [whoops] without any special or supplemental configurations. 

@@ -5,11 +5,6 @@ title: Serialize closures
 description: Learn how to wrap a closure and make it serializable
 canonical: /closure/3.x/serialize.html
 ---
-# Serialize closures
-
-1. [Serialize closures](#serialize-closures)
-2. [Unserialize closures](#unserialize-closures)
-3. [The unserializeData method](#the-unserializedata-method)
 
 ## Serialize closures
 

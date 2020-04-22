@@ -4,18 +4,15 @@ version: 3.x
 title: Quick start
 description: Learn how to wrap a closure and make it serializable
 ---
-# Quick start
-
-* [Serialize closures](#serialize-closures)
-* [Unserialize closures](#unserialize-closures)
-* [Serialize/unserialize arbitrary objects](#serialize-unserialize-arbitrary-objects)
 
 ## Serialize closures
 
 If you ever used closures then you probably know that closures are not serializable. 
 Trying to serialize a closure will result into an exception: 
 
-    Fatal error: Uncaught exception 'Exception' with message 'Serialization of 'Closure' is not allowed'
+```text
+Fatal error: Uncaught exception 'Exception' with message 'Serialization of 'Closure' is not allowed'
+```
 
 The solution for overcoming this problem is to wrap the closure into an `Opis\Closure\SerializableClosure`
 object, then serialize the wrapper object using the standard `serialize`. 

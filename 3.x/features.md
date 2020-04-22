@@ -4,12 +4,6 @@ version: 3.x
 title: Features
 description: A list of library's main features
 ---
-# Features
-
-* [Resolve class names](#resolve-class-names)
-* [Resolve function and constant names](#resolve-functions-constants)
-* [PHP 7.x support](#php-7-support)
-* [Resolve closure's scope and $this object](#resolve-scope-this)
 
 ## Resolve class names
 

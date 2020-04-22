@@ -7,7 +7,6 @@ lib:
     name: opis/closure
     version: 3.1
 ---
-# Serializable closures
 
 **Opis Closure** is a library that aims to overcome PHP's limitations 
 regarding closure serialization by providing a wrapper that will make all closures serializable. 
@@ -75,6 +74,9 @@ of updating your `composer.json` file.
 **Opis Closure** follows the [semantinc versioning][SemVer] specifications.
 
 ### SuperClosure support 
+
+SuperClosure is now abandoned
+{:.alert.alert-danger data-title="Warning"}
 
 **Opis Closure** is shipped with an analyzer(`Opis\Closure\Analyzer`) which 
 aims to provide *Opis Closure*'s parsing precision and speed to [SuperClosure]. 

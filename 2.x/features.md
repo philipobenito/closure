@@ -5,12 +5,6 @@ title: Features
 description: A list of library's main features
 canonical: /closure/3.x/features.html
 ---
-# Features
-
-1. [Resolve class names](#resolve-class-names)
-2. [Resolve function and constant names](#resolve-functions-constants)
-2. [PHP 7.0 support](#php-7-support)
-3. [Resolve closure's scope and $this object](#resolve-scope-this)
 
 ## Resolve class names
 

@@ -8,7 +8,6 @@ lib:
     name: opis/closure
     version: 2.4.0
 ---
-# Serializable closures
 
 **Opis Closure**  is a library that aims to overcome PHP's limitations 
 regarding closure serialization by providing a wrapper that will make all closures serializable. 
